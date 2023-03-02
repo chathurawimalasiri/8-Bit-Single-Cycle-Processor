@@ -1,0 +1,828 @@
+$date
+	Tue Feb  8 17:52:17 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 8 ! result [7:0] $end
+$var reg 8 " input1 [7:0] $end
+$var reg 8 # input2 [7:0] $end
+$scope module m1 $end
+$var wire 8 $ INPUT1 [7:0] $end
+$var wire 8 % INPUT2 [7:0] $end
+$var wire 1 & carry_f20 $end
+$var wire 1 ' h0 $end
+$var wire 1 ( h1 $end
+$var wire 1 ) h10 $end
+$var wire 1 * h11 $end
+$var wire 1 + h12 $end
+$var wire 1 , h13 $end
+$var wire 1 - h14 $end
+$var wire 1 . h15 $end
+$var wire 1 / h16 $end
+$var wire 1 0 h17 $end
+$var wire 1 1 h18 $end
+$var wire 1 2 h19 $end
+$var wire 1 3 h2 $end
+$var wire 1 4 h20 $end
+$var wire 1 5 h21 $end
+$var wire 1 6 h22 $end
+$var wire 1 7 h23 $end
+$var wire 1 8 h24 $end
+$var wire 1 9 h25 $end
+$var wire 1 : h26 $end
+$var wire 1 ; h27 $end
+$var wire 1 < h28 $end
+$var wire 1 = h29 $end
+$var wire 1 > h3 $end
+$var wire 1 ? h30 $end
+$var wire 1 @ h31 $end
+$var wire 1 A h32 $end
+$var wire 1 B h33 $end
+$var wire 1 C h4 $end
+$var wire 1 D h5 $end
+$var wire 1 E h6 $end
+$var wire 1 F h7 $end
+$var wire 1 G h8 $end
+$var wire 1 H h9 $end
+$var wire 1 I temp0 $end
+$var wire 1 J temp7 $end
+$var wire 1 K temp6 $end
+$var wire 1 L temp5 $end
+$var wire 1 M temp4 $end
+$var wire 1 N temp3 $end
+$var wire 1 O temp2 $end
+$var wire 1 P temp1 $end
+$var wire 1 Q sum_f9 $end
+$var wire 1 R sum_f8 $end
+$var wire 1 S sum_f7 $end
+$var wire 1 T sum_f6 $end
+$var wire 1 U sum_f5 $end
+$var wire 1 V sum_f4 $end
+$var wire 1 W sum_f3 $end
+$var wire 1 X sum_f21 $end
+$var wire 1 Y sum_f20 $end
+$var wire 1 Z sum_f2 $end
+$var wire 1 [ sum_f19 $end
+$var wire 1 \ sum_f18 $end
+$var wire 1 ] sum_f17 $end
+$var wire 1 ^ sum_f16 $end
+$var wire 1 _ sum_f15 $end
+$var wire 1 ` sum_f14 $end
+$var wire 1 a sum_f13 $end
+$var wire 1 b sum_f12 $end
+$var wire 1 c sum_f11 $end
+$var wire 1 d sum_f10 $end
+$var wire 1 e sum_f1 $end
+$var wire 1 f carry_h7 $end
+$var wire 1 g carry_h6 $end
+$var wire 1 h carry_h5 $end
+$var wire 1 i carry_h4 $end
+$var wire 1 j carry_h3 $end
+$var wire 1 k carry_h2 $end
+$var wire 1 l carry_h1 $end
+$var wire 1 m carry_f9 $end
+$var wire 1 n carry_f8 $end
+$var wire 1 o carry_f7 $end
+$var wire 1 p carry_f6 $end
+$var wire 1 q carry_f5 $end
+$var wire 1 r carry_f4 $end
+$var wire 1 s carry_f3 $end
+$var wire 1 t carry_f2 $end
+$var wire 1 u carry_f19 $end
+$var wire 1 v carry_f18 $end
+$var wire 1 w carry_f17 $end
+$var wire 1 x carry_f16 $end
+$var wire 1 y carry_f15 $end
+$var wire 1 z carry_f14 $end
+$var wire 1 { carry_f13 $end
+$var wire 1 | carry_f12 $end
+$var wire 1 } carry_f11 $end
+$var wire 1 ~ carry_f10 $end
+$var wire 1 !" carry_f1 $end
+$var wire 8 "" RESULT [7:0] $end
+$scope module c1r1_h $end
+$var wire 1 l CARRY $end
+$var wire 1 ' INPUT1 $end
+$var wire 1 ( INPUT2 $end
+$var wire 1 P SUM $end
+$upscope $end
+$scope module c2r1_f $end
+$var wire 1 !" CARRY $end
+$var wire 1 3 INPUT1 $end
+$var wire 1 > INPUT2 $end
+$var wire 1 l INPUT3 $end
+$var wire 1 #" SUMOUT $end
+$var wire 1 e SUM $end
+$var wire 1 $" CARRYOUT2 $end
+$var wire 1 %" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 %" CARRY $end
+$var wire 1 3 INPUT1 $end
+$var wire 1 > INPUT2 $end
+$var wire 1 #" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 $" CARRY $end
+$var wire 1 l INPUT1 $end
+$var wire 1 #" INPUT2 $end
+$var wire 1 e SUM $end
+$upscope $end
+$upscope $end
+$scope module c2r2_h $end
+$var wire 1 k CARRY $end
+$var wire 1 - INPUT1 $end
+$var wire 1 e INPUT2 $end
+$var wire 1 O SUM $end
+$upscope $end
+$scope module c3r1_f $end
+$var wire 1 t CARRY $end
+$var wire 1 C INPUT1 $end
+$var wire 1 D INPUT2 $end
+$var wire 1 !" INPUT3 $end
+$var wire 1 &" SUMOUT $end
+$var wire 1 Z SUM $end
+$var wire 1 '" CARRYOUT2 $end
+$var wire 1 (" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 (" CARRY $end
+$var wire 1 C INPUT1 $end
+$var wire 1 D INPUT2 $end
+$var wire 1 &" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 '" CARRY $end
+$var wire 1 !" INPUT1 $end
+$var wire 1 &" INPUT2 $end
+$var wire 1 Z SUM $end
+$upscope $end
+$upscope $end
+$scope module c3r2_f $end
+$var wire 1 o CARRY $end
+$var wire 1 . INPUT1 $end
+$var wire 1 Z INPUT2 $end
+$var wire 1 k INPUT3 $end
+$var wire 1 )" SUMOUT $end
+$var wire 1 S SUM $end
+$var wire 1 *" CARRYOUT2 $end
+$var wire 1 +" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 +" CARRY $end
+$var wire 1 . INPUT1 $end
+$var wire 1 Z INPUT2 $end
+$var wire 1 )" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 *" CARRY $end
+$var wire 1 k INPUT1 $end
+$var wire 1 )" INPUT2 $end
+$var wire 1 S SUM $end
+$upscope $end
+$upscope $end
+$scope module c3r3_h $end
+$var wire 1 j CARRY $end
+$var wire 1 2 INPUT1 $end
+$var wire 1 S INPUT2 $end
+$var wire 1 N SUM $end
+$upscope $end
+$scope module c4r1_f $end
+$var wire 1 s CARRY $end
+$var wire 1 E INPUT1 $end
+$var wire 1 F INPUT2 $end
+$var wire 1 t INPUT3 $end
+$var wire 1 ," SUMOUT $end
+$var wire 1 W SUM $end
+$var wire 1 -" CARRYOUT2 $end
+$var wire 1 ." CARRYOUT $end
+$scope module h1 $end
+$var wire 1 ." CARRY $end
+$var wire 1 E INPUT1 $end
+$var wire 1 F INPUT2 $end
+$var wire 1 ," SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 -" CARRY $end
+$var wire 1 t INPUT1 $end
+$var wire 1 ," INPUT2 $end
+$var wire 1 W SUM $end
+$upscope $end
+$upscope $end
+$scope module c4r2_f $end
+$var wire 1 n CARRY $end
+$var wire 1 / INPUT1 $end
+$var wire 1 W INPUT2 $end
+$var wire 1 o INPUT3 $end
+$var wire 1 /" SUMOUT $end
+$var wire 1 R SUM $end
+$var wire 1 0" CARRYOUT2 $end
+$var wire 1 1" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 1" CARRY $end
+$var wire 1 / INPUT1 $end
+$var wire 1 W INPUT2 $end
+$var wire 1 /" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 0" CARRY $end
+$var wire 1 o INPUT1 $end
+$var wire 1 /" INPUT2 $end
+$var wire 1 R SUM $end
+$upscope $end
+$upscope $end
+$scope module c4r3_f $end
+$var wire 1 | CARRY $end
+$var wire 1 4 INPUT1 $end
+$var wire 1 R INPUT2 $end
+$var wire 1 j INPUT3 $end
+$var wire 1 2" SUMOUT $end
+$var wire 1 b SUM $end
+$var wire 1 3" CARRYOUT2 $end
+$var wire 1 4" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 4" CARRY $end
+$var wire 1 4 INPUT1 $end
+$var wire 1 R INPUT2 $end
+$var wire 1 2" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 3" CARRY $end
+$var wire 1 j INPUT1 $end
+$var wire 1 2" INPUT2 $end
+$var wire 1 b SUM $end
+$upscope $end
+$upscope $end
+$scope module c4r4_h $end
+$var wire 1 i CARRY $end
+$var wire 1 8 INPUT1 $end
+$var wire 1 b INPUT2 $end
+$var wire 1 M SUM $end
+$upscope $end
+$scope module c5r1_f $end
+$var wire 1 r CARRY $end
+$var wire 1 G INPUT1 $end
+$var wire 1 H INPUT2 $end
+$var wire 1 s INPUT3 $end
+$var wire 1 5" SUMOUT $end
+$var wire 1 V SUM $end
+$var wire 1 6" CARRYOUT2 $end
+$var wire 1 7" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 7" CARRY $end
+$var wire 1 G INPUT1 $end
+$var wire 1 H INPUT2 $end
+$var wire 1 5" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 6" CARRY $end
+$var wire 1 s INPUT1 $end
+$var wire 1 5" INPUT2 $end
+$var wire 1 V SUM $end
+$upscope $end
+$upscope $end
+$scope module c5r2_f $end
+$var wire 1 m CARRY $end
+$var wire 1 0 INPUT1 $end
+$var wire 1 V INPUT2 $end
+$var wire 1 n INPUT3 $end
+$var wire 1 8" SUMOUT $end
+$var wire 1 Q SUM $end
+$var wire 1 9" CARRYOUT2 $end
+$var wire 1 :" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 :" CARRY $end
+$var wire 1 0 INPUT1 $end
+$var wire 1 V INPUT2 $end
+$var wire 1 8" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 9" CARRY $end
+$var wire 1 n INPUT1 $end
+$var wire 1 8" INPUT2 $end
+$var wire 1 Q SUM $end
+$upscope $end
+$upscope $end
+$scope module c5r3_f $end
+$var wire 1 { CARRY $end
+$var wire 1 5 INPUT1 $end
+$var wire 1 Q INPUT2 $end
+$var wire 1 | INPUT3 $end
+$var wire 1 ;" SUMOUT $end
+$var wire 1 a SUM $end
+$var wire 1 <" CARRYOUT2 $end
+$var wire 1 =" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 =" CARRY $end
+$var wire 1 5 INPUT1 $end
+$var wire 1 Q INPUT2 $end
+$var wire 1 ;" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 <" CARRY $end
+$var wire 1 | INPUT1 $end
+$var wire 1 ;" INPUT2 $end
+$var wire 1 a SUM $end
+$upscope $end
+$upscope $end
+$scope module c5r4_f $end
+$var wire 1 x CARRY $end
+$var wire 1 9 INPUT1 $end
+$var wire 1 a INPUT2 $end
+$var wire 1 i INPUT3 $end
+$var wire 1 >" SUMOUT $end
+$var wire 1 ^ SUM $end
+$var wire 1 ?" CARRYOUT2 $end
+$var wire 1 @" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 @" CARRY $end
+$var wire 1 9 INPUT1 $end
+$var wire 1 a INPUT2 $end
+$var wire 1 >" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 ?" CARRY $end
+$var wire 1 i INPUT1 $end
+$var wire 1 >" INPUT2 $end
+$var wire 1 ^ SUM $end
+$upscope $end
+$upscope $end
+$scope module c5r5_h $end
+$var wire 1 h CARRY $end
+$var wire 1 < INPUT1 $end
+$var wire 1 ^ INPUT2 $end
+$var wire 1 L SUM $end
+$upscope $end
+$scope module c6r1_f $end
+$var wire 1 q CARRY $end
+$var wire 1 ) INPUT1 $end
+$var wire 1 * INPUT2 $end
+$var wire 1 r INPUT3 $end
+$var wire 1 A" SUMOUT $end
+$var wire 1 U SUM $end
+$var wire 1 B" CARRYOUT2 $end
+$var wire 1 C" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 C" CARRY $end
+$var wire 1 ) INPUT1 $end
+$var wire 1 * INPUT2 $end
+$var wire 1 A" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 B" CARRY $end
+$var wire 1 r INPUT1 $end
+$var wire 1 A" INPUT2 $end
+$var wire 1 U SUM $end
+$upscope $end
+$upscope $end
+$scope module c6r2_f $end
+$var wire 1 ~ CARRY $end
+$var wire 1 1 INPUT1 $end
+$var wire 1 U INPUT2 $end
+$var wire 1 m INPUT3 $end
+$var wire 1 D" SUMOUT $end
+$var wire 1 d SUM $end
+$var wire 1 E" CARRYOUT2 $end
+$var wire 1 F" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 F" CARRY $end
+$var wire 1 1 INPUT1 $end
+$var wire 1 U INPUT2 $end
+$var wire 1 D" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 E" CARRY $end
+$var wire 1 m INPUT1 $end
+$var wire 1 D" INPUT2 $end
+$var wire 1 d SUM $end
+$upscope $end
+$upscope $end
+$scope module c6r3_f $end
+$var wire 1 z CARRY $end
+$var wire 1 6 INPUT1 $end
+$var wire 1 d INPUT2 $end
+$var wire 1 { INPUT3 $end
+$var wire 1 G" SUMOUT $end
+$var wire 1 ` SUM $end
+$var wire 1 H" CARRYOUT2 $end
+$var wire 1 I" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 I" CARRY $end
+$var wire 1 6 INPUT1 $end
+$var wire 1 d INPUT2 $end
+$var wire 1 G" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 H" CARRY $end
+$var wire 1 { INPUT1 $end
+$var wire 1 G" INPUT2 $end
+$var wire 1 ` SUM $end
+$upscope $end
+$upscope $end
+$scope module c6r4_f $end
+$var wire 1 w CARRY $end
+$var wire 1 9 INPUT1 $end
+$var wire 1 ` INPUT2 $end
+$var wire 1 x INPUT3 $end
+$var wire 1 J" SUMOUT $end
+$var wire 1 ] SUM $end
+$var wire 1 K" CARRYOUT2 $end
+$var wire 1 L" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 L" CARRY $end
+$var wire 1 9 INPUT1 $end
+$var wire 1 ` INPUT2 $end
+$var wire 1 J" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 K" CARRY $end
+$var wire 1 x INPUT1 $end
+$var wire 1 J" INPUT2 $end
+$var wire 1 ] SUM $end
+$upscope $end
+$upscope $end
+$scope module c6r5_f $end
+$var wire 1 u CARRY $end
+$var wire 1 = INPUT1 $end
+$var wire 1 ] INPUT2 $end
+$var wire 1 h INPUT3 $end
+$var wire 1 M" SUMOUT $end
+$var wire 1 [ SUM $end
+$var wire 1 N" CARRYOUT2 $end
+$var wire 1 O" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 O" CARRY $end
+$var wire 1 = INPUT1 $end
+$var wire 1 ] INPUT2 $end
+$var wire 1 M" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 N" CARRY $end
+$var wire 1 h INPUT1 $end
+$var wire 1 M" INPUT2 $end
+$var wire 1 [ SUM $end
+$upscope $end
+$upscope $end
+$scope module c6r6_h $end
+$var wire 1 g CARRY $end
+$var wire 1 @ INPUT1 $end
+$var wire 1 [ INPUT2 $end
+$var wire 1 K SUM $end
+$upscope $end
+$scope module c7r1_f $end
+$var wire 1 p CARRY $end
+$var wire 1 + INPUT1 $end
+$var wire 1 , INPUT2 $end
+$var wire 1 q INPUT3 $end
+$var wire 1 P" SUMOUT $end
+$var wire 1 T SUM $end
+$var wire 1 Q" CARRYOUT2 $end
+$var wire 1 R" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 R" CARRY $end
+$var wire 1 + INPUT1 $end
+$var wire 1 , INPUT2 $end
+$var wire 1 P" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 Q" CARRY $end
+$var wire 1 q INPUT1 $end
+$var wire 1 P" INPUT2 $end
+$var wire 1 T SUM $end
+$upscope $end
+$upscope $end
+$scope module c7r2_f $end
+$var wire 1 } CARRY $end
+$var wire 1 1 INPUT1 $end
+$var wire 1 T INPUT2 $end
+$var wire 1 ~ INPUT3 $end
+$var wire 1 S" SUMOUT $end
+$var wire 1 c SUM $end
+$var wire 1 T" CARRYOUT2 $end
+$var wire 1 U" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 U" CARRY $end
+$var wire 1 1 INPUT1 $end
+$var wire 1 T INPUT2 $end
+$var wire 1 S" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 T" CARRY $end
+$var wire 1 ~ INPUT1 $end
+$var wire 1 S" INPUT2 $end
+$var wire 1 c SUM $end
+$upscope $end
+$upscope $end
+$scope module c7r3_f $end
+$var wire 1 y CARRY $end
+$var wire 1 7 INPUT1 $end
+$var wire 1 c INPUT2 $end
+$var wire 1 z INPUT3 $end
+$var wire 1 V" SUMOUT $end
+$var wire 1 _ SUM $end
+$var wire 1 W" CARRYOUT2 $end
+$var wire 1 X" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 X" CARRY $end
+$var wire 1 7 INPUT1 $end
+$var wire 1 c INPUT2 $end
+$var wire 1 V" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 W" CARRY $end
+$var wire 1 z INPUT1 $end
+$var wire 1 V" INPUT2 $end
+$var wire 1 _ SUM $end
+$upscope $end
+$upscope $end
+$scope module c7r4_f $end
+$var wire 1 v CARRY $end
+$var wire 1 ; INPUT1 $end
+$var wire 1 _ INPUT2 $end
+$var wire 1 w INPUT3 $end
+$var wire 1 Y" SUMOUT $end
+$var wire 1 \ SUM $end
+$var wire 1 Z" CARRYOUT2 $end
+$var wire 1 [" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 [" CARRY $end
+$var wire 1 ; INPUT1 $end
+$var wire 1 _ INPUT2 $end
+$var wire 1 Y" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 Z" CARRY $end
+$var wire 1 w INPUT1 $end
+$var wire 1 Y" INPUT2 $end
+$var wire 1 \ SUM $end
+$upscope $end
+$upscope $end
+$scope module c7r5_f $end
+$var wire 1 & CARRY $end
+$var wire 1 ? INPUT1 $end
+$var wire 1 \ INPUT2 $end
+$var wire 1 u INPUT3 $end
+$var wire 1 \" SUMOUT $end
+$var wire 1 Y SUM $end
+$var wire 1 ]" CARRYOUT2 $end
+$var wire 1 ^" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 ^" CARRY $end
+$var wire 1 ? INPUT1 $end
+$var wire 1 \ INPUT2 $end
+$var wire 1 \" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 ]" CARRY $end
+$var wire 1 u INPUT1 $end
+$var wire 1 \" INPUT2 $end
+$var wire 1 Y SUM $end
+$upscope $end
+$upscope $end
+$scope module c7r6_f $end
+$var wire 1 & CARRY $end
+$var wire 1 A INPUT1 $end
+$var wire 1 Y INPUT2 $end
+$var wire 1 g INPUT3 $end
+$var wire 1 _" SUMOUT $end
+$var wire 1 X SUM $end
+$var wire 1 `" CARRYOUT2 $end
+$var wire 1 a" CARRYOUT $end
+$scope module h1 $end
+$var wire 1 a" CARRY $end
+$var wire 1 A INPUT1 $end
+$var wire 1 Y INPUT2 $end
+$var wire 1 _" SUM $end
+$upscope $end
+$scope module h2 $end
+$var wire 1 `" CARRY $end
+$var wire 1 g INPUT1 $end
+$var wire 1 _" INPUT2 $end
+$var wire 1 X SUM $end
+$upscope $end
+$upscope $end
+$scope module c7r7_h $end
+$var wire 1 f CARRY $end
+$var wire 1 B INPUT1 $end
+$var wire 1 X INPUT2 $end
+$var wire 1 J SUM $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0a"
+0`"
+0_"
+0^"
+0]"
+0\"
+0["
+0Z"
+0Y"
+0X"
+0W"
+0V"
+0U"
+0T"
+0S"
+0R"
+0Q"
+0P"
+0O"
+0N"
+1M"
+0L"
+0K"
+1J"
+0I"
+0H"
+1G"
+0F"
+0E"
+1D"
+0C"
+0B"
+1A"
+0@"
+0?"
+1>"
+0="
+0<"
+1;"
+0:"
+09"
+18"
+07"
+06"
+15"
+04"
+03"
+02"
+01"
+00"
+0/"
+0."
+0-"
+0,"
+0+"
+0*"
+0)"
+0("
+0'"
+0&"
+0%"
+0$"
+1#"
+b1100100 ""
+0!"
+0~
+0}
+0|
+0{
+0z
+0y
+0x
+0w
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+0k
+0j
+0i
+0h
+0g
+0f
+1e
+1d
+0c
+0b
+1a
+1`
+0_
+1^
+1]
+0\
+1[
+0Z
+0Y
+0X
+0W
+1V
+1U
+0T
+0S
+0R
+1Q
+0P
+1O
+0N
+0M
+1L
+1K
+0J
+0I
+1H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+1>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+1*
+0)
+0(
+0'
+0&
+b10 %
+b110010 $
+b10 #
+b110010 "
+b1100100 !
+$end
+#8
+1J
+1X
+1_"
+1Y
+0K
+1\"
+0[
+1\
+0M"
+1Y"
+0L
+0]
+1_
+0^
+0J"
+1V"
+1M
+0>"
+0`
+1c
+1b
+0a
+0G"
+1S"
+12"
+0;"
+0d
+1T
+1R
+0Q
+0D"
+1q
+1/"
+08"
+0U
+1B"
+1W
+0V
+1r
+b10010110 !
+b10010110 ""
+1P
+1,"
+05"
+17"
+1'
+1E
+1G
+b11 #
+b11 %
+#28

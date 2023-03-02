@@ -1,0 +1,57 @@
+#! /usr/bin/vvp
+:ivl_version "10.3 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x5653fd5e1110 .scope module, "full_adder" "full_adder" 2 3;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 1 "SUM"
+    .port_info 1 /OUTPUT 1 "CARRY"
+    .port_info 2 /INPUT 1 "INPUT1"
+    .port_info 3 /INPUT 1 "INPUT2"
+    .port_info 4 /INPUT 1 "INPUT3"
+L_0x5653fd628070 .functor OR 1, L_0x5653fd627fb0, L_0x5653fd6282a0, C4<0>, C4<0>;
+v0x5653fd6277b0_0 .net "CARRY", 0 0, L_0x5653fd628070;  1 drivers
+v0x5653fd627890_0 .net "CARRYOUT", 0 0, L_0x5653fd627fb0;  1 drivers
+v0x5653fd627950_0 .net "CARRYOUT2", 0 0, L_0x5653fd6282a0;  1 drivers
+o0x7f9975edd048 .functor BUFZ 1, C4<z>; HiZ drive
+v0x5653fd627a50_0 .net "INPUT1", 0 0, o0x7f9975edd048;  0 drivers
+o0x7f9975edd078 .functor BUFZ 1, C4<z>; HiZ drive
+v0x5653fd627b20_0 .net "INPUT2", 0 0, o0x7f9975edd078;  0 drivers
+o0x7f9975edd1c8 .functor BUFZ 1, C4<z>; HiZ drive
+v0x5653fd627c10_0 .net "INPUT3", 0 0, o0x7f9975edd1c8;  0 drivers
+v0x5653fd627ce0_0 .net "SUM", 0 0, L_0x5653fd628150;  1 drivers
+v0x5653fd627db0_0 .net "SUMOUT", 0 0, L_0x5653fd627ea0;  1 drivers
+S_0x5653fd5e1290 .scope module, "h1" "half_adder" 2 8, 3 1 0, S_0x5653fd5e1110;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 1 "SUM"
+    .port_info 1 /OUTPUT 1 "CARRY"
+    .port_info 2 /INPUT 1 "INPUT1"
+    .port_info 3 /INPUT 1 "INPUT2"
+L_0x5653fd627ea0 .functor XOR 1, o0x7f9975edd048, o0x7f9975edd078, C4<0>, C4<0>;
+L_0x5653fd627fb0 .functor AND 1, o0x7f9975edd048, o0x7f9975edd078, C4<1>, C4<1>;
+v0x5653fd616d20_0 .net "CARRY", 0 0, L_0x5653fd627fb0;  alias, 1 drivers
+v0x5653fd626ea0_0 .net "INPUT1", 0 0, o0x7f9975edd048;  alias, 0 drivers
+v0x5653fd626f60_0 .net "INPUT2", 0 0, o0x7f9975edd078;  alias, 0 drivers
+v0x5653fd627030_0 .net "SUM", 0 0, L_0x5653fd627ea0;  alias, 1 drivers
+S_0x5653fd6271a0 .scope module, "h2" "half_adder" 2 10, 3 1 0, S_0x5653fd5e1110;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 1 "SUM"
+    .port_info 1 /OUTPUT 1 "CARRY"
+    .port_info 2 /INPUT 1 "INPUT1"
+    .port_info 3 /INPUT 1 "INPUT2"
+L_0x5653fd628150 .functor XOR 1, o0x7f9975edd1c8, L_0x5653fd627ea0, C4<0>, C4<0>;
+L_0x5653fd6282a0 .functor AND 1, o0x7f9975edd1c8, L_0x5653fd627ea0, C4<1>, C4<1>;
+v0x5653fd627400_0 .net "CARRY", 0 0, L_0x5653fd6282a0;  alias, 1 drivers
+v0x5653fd6274c0_0 .net "INPUT1", 0 0, o0x7f9975edd1c8;  alias, 0 drivers
+v0x5653fd627580_0 .net "INPUT2", 0 0, L_0x5653fd627ea0;  alias, 1 drivers
+v0x5653fd627680_0 .net "SUM", 0 0, L_0x5653fd628150;  alias, 1 drivers
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "fullAdder.v";
+    "./halfAdder.v";

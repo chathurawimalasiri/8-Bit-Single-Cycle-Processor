@@ -1,0 +1,33 @@
+#! /usr/bin/vvp
+:ivl_version "10.3 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x55aa138e1100 .scope module, "mux_2to1_1bits" "mux_2to1_1bits" 2 8;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 1 "RESULT"
+    .port_info 1 /INPUT 1 "INPUT1"
+    .port_info 2 /INPUT 1 "INPUT2"
+    .port_info 3 /INPUT 1 "SELECT"
+o0x7fed207500d8 .functor BUFZ 1, C4<z>; HiZ drive
+L_0x55aa13924880 .functor NOT 1, o0x7fed207500d8, C4<0>, C4<0>, C4<0>;
+o0x7fed20750018 .functor BUFZ 1, C4<z>; HiZ drive
+L_0x55aa13924940 .functor AND 1, o0x7fed20750018, L_0x55aa13924880, C4<1>, C4<1>;
+o0x7fed20750048 .functor BUFZ 1, C4<z>; HiZ drive
+L_0x55aa13924a60 .functor AND 1, o0x7fed20750048, o0x7fed207500d8, C4<1>, C4<1>;
+L_0x55aa13924b50 .functor OR 1, L_0x55aa13924940, L_0x55aa13924a60, C4<0>, C4<0>;
+v0x55aa138e12f0_0 .net "INPUT1", 0 0, o0x7fed20750018;  0 drivers
+v0x55aa13924320_0 .net "INPUT2", 0 0, o0x7fed20750048;  0 drivers
+v0x55aa139243e0_0 .net "NOTSELECT", 0 0, L_0x55aa13924880;  1 drivers
+v0x55aa139244b0_0 .net "RESULT", 0 0, L_0x55aa13924b50;  1 drivers
+v0x55aa13924570_0 .net "SELECT", 0 0, o0x7fed207500d8;  0 drivers
+v0x55aa13924680_0 .net "input1", 0 0, L_0x55aa13924940;  1 drivers
+v0x55aa13924740_0 .net "input2", 0 0, L_0x55aa13924a60;  1 drivers
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "mux_2to1_1bits.v";

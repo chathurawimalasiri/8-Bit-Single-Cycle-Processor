@@ -1,0 +1,7 @@
+loadi 0 0x0A
+loadi 1 0x01
+loadi 2 0x00
+add 2 2 1
+beq 0x01 0 2
+j 0xFD
+loadi 7 1
