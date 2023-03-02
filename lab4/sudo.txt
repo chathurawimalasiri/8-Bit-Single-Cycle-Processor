@@ -1,0 +1,19 @@
+int main(){
+	int num;
+	printf("Enter the number of strings :");
+	scanf(%d, $num);
+	if(num<0){
+		printf("Invalid Number");
+	}else{
+		char [200]str;
+		for(int i=0; i<num; i++){
+			printf(Enter input string i:);
+			scanf(%s, str);
+			reverse(*str);
+			printf(output string i is..)
+			printf(reversed string)
+		}
+	}
+
+	return 0;
+}
